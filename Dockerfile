@@ -1,5 +1,5 @@
 FROM openjdk:17-oracle
-EXPOSE 9002
+EXPOSE 38695
 
 COPY ./target/login-service-0.0.1-SNAPSHOT.jar /usr/app/
 
