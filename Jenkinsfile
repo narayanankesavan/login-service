@@ -5,7 +5,7 @@ pipeline {
     dockerImage = 'login-service'
     containername = 'login-service'
     MAIL_TO ='kesavannarayanan@gmail.com,lobomalcon@gmail.com,sangramsahutech@gmail.com,anshulv1401@gmail.com,akshit.baunthy@gmail.com'
-	PORT='9002'
+	PORT='38695'
   }
   agent {label 'backendapi-java'}
   stages {
